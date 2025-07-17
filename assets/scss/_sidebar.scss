@@ -29,6 +29,8 @@
                 margin-bottom: 35px;
 
                 a {
+                    position: relative;
+
                     &:hover {
 
                         i {
@@ -41,9 +43,35 @@
                         }
                     }
 
+                    &:before {
+                            content: "";
+                            position: absolute;
+                            width: 46px;
+                            height: 46px;
+                            border-radius: 50%;
+                            background: $primary;
+                            opacity: 0.15;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%) scale(0);
+                            transition: all 0.45s;
+                        }
+
+                    &.active {
+                        &:before {
+                            opacity: 0.15;
+                            transform: translate(-50%, -50%) scale(1);
+                        }
+
+                        i {
+                            color: $primary;
+                        }
+                    }
+
                     i {
                         font-size: 18px;
                         color: $gray;
+                        transition: all 2s;
                     }
                 }
 

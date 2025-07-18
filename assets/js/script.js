@@ -16,3 +16,7 @@ navLinks.forEach((item) => {
         console.log(`You clicked on ${item.getAttribute('href')}`);
     })
 });
+
+document.querySelector('#sidebar .toggle-sidebar').addEventListener('click', function(){
+    document.querySelector('#sidebar').classList.toggle('open');
+});

@@ -6,8 +6,22 @@ main {
         padding-right: 114px;
         padding-left: 114px;
 
+        &:not(#home) {
+            padding-top: 64px;
+        }
+
         &.active {
             display: block;
+        }
+
+        header.has-bg {
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 15px;
+                left: -72px;
+            }
         }
     }
 }

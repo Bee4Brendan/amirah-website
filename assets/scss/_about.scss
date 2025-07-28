@@ -1,0 +1,61 @@
+#about_me {
+    padding-top: 64px;
+
+    .hero {
+
+        .image {
+
+            img {
+                border-radius: 10px;
+                transition: all 0.3s;
+
+                &:hover {
+                    filter: hue-rotate(180deg) grayscale(80%);
+                    transform: translate(3px);
+            }
+            }
+        }
+
+        .info {
+        
+            header {
+                margin-bottom: 42px;
+                margin-top: 10px;
+            }
+
+            h2 {
+                color: $gray;
+                margin-bottom: 16px;
+            }
+
+            p {
+                max-width: 560px;
+                color: $gray;
+            }
+        }
+
+        .items {
+            margin-top: 30px;
+            margin-bottom: 48px;
+
+            .item {
+                display: flex;
+                margin-bottom: 16px;
+
+                .value {
+                    color: $gray;
+                    margin-left: 4px;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            
+            a:first-child {
+                margin-right: 24px;
+            }
+        }
+
+    }
+}

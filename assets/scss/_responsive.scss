@@ -1,3 +1,9 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
 @media (max-width: 991px) {
     main {
         > section {
@@ -64,7 +70,11 @@
 
     main {
         padding-left: 0;
-        padding-top: 50px;
+
+        > section header.has-bg img {
+            left: -13px;
+            top: -4px;
+        }
     }
 
     #home {
@@ -78,6 +88,26 @@
 
                 ul {
                     justify-content: space-between;
+                }
+            }
+        }
+    }
+
+    #about_me {
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .hero .info .buttons {
+            flex-direction: column;
+
+            a {
+                width: 100%;
+                text-align: center;
+                
+                &:first-child {
+                    margin-bottom: 16px;
                 }
             }
         }

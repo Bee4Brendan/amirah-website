@@ -1,4 +1,4 @@
-let navLinks = document.querySelectorAll('nav ul li a');
+let navLinks = document.querySelectorAll('a.inner-link');
 console.log('These are the section links');
 console.log(navLinks);
 
@@ -7,7 +7,7 @@ navLinks.forEach((item) => {
         // remove active class (highlight / blue circle) from previously selected section link button
         document.querySelector('nav ul li a.active').classList.remove('active')
         // add active class (highlight / blue circle) to the newly clicked section link button
-        item.classList.add('active')
+        document.querySelector(`nav ul li a[href='${item.getAttribute('href')}']`).classList.add('active')
         // remove the active class from the previously selected section
         document.querySelector('main > section.active').classList.remove('active')
         // add active class to the newly clicked section so it is displayed on the screen

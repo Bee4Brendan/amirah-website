@@ -333,10 +333,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 27vh;
-  left: 15vw;
-  animation: meteor 3927ms linear infinite;
-  animation-delay: 1293ms;
+  top: 35vh;
+  left: 48vw;
+  animation: meteor 4192ms linear infinite;
+  animation-delay: 1276ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   background-image: url("../images/meteor.png");
@@ -344,10 +344,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 41vh;
-  left: 27vw;
-  animation: meteor 3173ms linear infinite;
-  animation-delay: 3505ms;
+  top: 35vh;
+  left: 49vw;
+  animation: meteor 5596ms linear infinite;
+  animation-delay: 330ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   background-image: url("../images/meteor.png");
@@ -355,10 +355,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 61vh;
-  left: 43vw;
-  animation: meteor 3789ms linear infinite;
-  animation-delay: 1701ms;
+  top: 80vh;
+  left: 67vw;
+  animation: meteor 4099ms linear infinite;
+  animation-delay: 2767ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   background-image: url("../images/meteor.png");
@@ -366,10 +366,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 9vh;
-  left: 56vw;
-  animation: meteor 6774ms linear infinite;
-  animation-delay: 3679ms;
+  top: 70vh;
+  left: 11vw;
+  animation: meteor 6270ms linear infinite;
+  animation-delay: 4447ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   background-image: url("../images/meteor.png");
@@ -377,10 +377,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 34vh;
-  left: 59vw;
-  animation: meteor 7773ms linear infinite;
-  animation-delay: 998ms;
+  top: 57vh;
+  left: 51vw;
+  animation: meteor 5267ms linear infinite;
+  animation-delay: 2262ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   background-image: url("../images/meteor.png");
@@ -388,10 +388,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 20vh;
-  left: 50vw;
-  animation: meteor 3864ms linear infinite;
-  animation-delay: 4000ms;
+  top: 54vh;
+  left: 12vw;
+  animation: meteor 5393ms linear infinite;
+  animation-delay: 847ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   background-image: url("../images/meteor.png");
@@ -399,10 +399,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 26vh;
-  left: 36vw;
-  animation: meteor 6537ms linear infinite;
-  animation-delay: 1102ms;
+  top: 69vh;
+  left: 60vw;
+  animation: meteor 3817ms linear infinite;
+  animation-delay: 640ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   background-image: url("../images/meteor.png");
@@ -410,10 +410,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 65vh;
-  left: 15vw;
-  animation: meteor 3307ms linear infinite;
-  animation-delay: 4842ms;
+  top: 72vh;
+  left: 7vw;
+  animation: meteor 3574ms linear infinite;
+  animation-delay: 2139ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   background-image: url("../images/meteor.png");
@@ -421,10 +421,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 3vh;
-  left: 19vw;
-  animation: meteor 3095ms linear infinite;
-  animation-delay: 1391ms;
+  top: 31vh;
+  left: 22vw;
+  animation: meteor 7735ms linear infinite;
+  animation-delay: 600ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   background-image: url("../images/meteor.png");
@@ -432,10 +432,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 20vh;
-  left: 11vw;
-  animation: meteor 5699ms linear infinite;
-  animation-delay: 4328ms;
+  top: 77vh;
+  left: 56vw;
+  animation: meteor 3123ms linear infinite;
+  animation-delay: 1979ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   background-image: url("../images/meteor.png");
@@ -443,10 +443,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 46vh;
-  left: 35vw;
-  animation: meteor 3421ms linear infinite;
-  animation-delay: 3480ms;
+  top: 11vh;
+  left: 32vw;
+  animation: meteor 5158ms linear infinite;
+  animation-delay: 1987ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   background-image: url("../images/meteor.png");
@@ -454,10 +454,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 51vh;
-  left: 26vw;
-  animation: meteor 6579ms linear infinite;
-  animation-delay: 649ms;
+  top: 80vh;
+  left: 47vw;
+  animation: meteor 6759ms linear infinite;
+  animation-delay: 3333ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   background-image: url("../images/meteor.png");
@@ -465,10 +465,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 24vh;
-  left: 44vw;
-  animation: meteor 4967ms linear infinite;
-  animation-delay: 3335ms;
+  top: 4vh;
+  left: 20vw;
+  animation: meteor 5112ms linear infinite;
+  animation-delay: 3974ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   background-image: url("../images/meteor.png");
@@ -476,10 +476,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 40vh;
-  left: 48vw;
-  animation: meteor 3967ms linear infinite;
-  animation-delay: 4190ms;
+  top: 71vh;
+  left: 3vw;
+  animation: meteor 6081ms linear infinite;
+  animation-delay: 4644ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   background-image: url("../images/meteor.png");
@@ -487,10 +487,10 @@ main > section header.has-bg img {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 68vh;
-  left: 69vw;
-  animation: meteor 6168ms linear infinite;
-  animation-delay: 4717ms;
+  top: 35vh;
+  left: 72vw;
+  animation: meteor 3874ms linear infinite;
+  animation-delay: 4025ms;
 }
 
 @keyframes meteor {
@@ -549,6 +549,7 @@ main > section header.has-bg img {
 #about_me header.custom {
   text-align: center;
   position: relative;
+  margin-bottom: 42px;
 }
 #about_me header.custom:before {
   content: "";
@@ -584,7 +585,7 @@ main > section header.has-bg img {
   width: 15px;
   height: 15px;
   border-radius: 4px;
-  background: #658DF2;
+  background: #1E1E20;
   transform: rotate(40deg);
 }
 #about_me .rate span:after {
@@ -593,8 +594,17 @@ main > section header.has-bg img {
   width: 15px;
   height: 15px;
   border-radius: 4px;
-  background: #658DF2;
+  background: #1E1E20;
   transform: rotate(50deg);
+}
+#about_me .rate span.fill {
+  transition: all 0.3s;
+}
+#about_me .rate span.fill:hover {
+  transform: scale(1.5);
+}
+#about_me .rate span.fill:before, #about_me .rate span.fill:after {
+  background: #658DF2;
 }
 #about_me .languages-skills {
   margin-top: 126px;
@@ -602,12 +612,13 @@ main > section header.has-bg img {
 #about_me .languages-skills .languages-key-skills {
   padding-right: 160px;
 }
+#about_me .languages-skills .languages-key-skills .languages .items {
+  margin-bottom: 43px;
+}
 #about_me .languages-skills .languages-key-skills .languages .items .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 38px;
-  margin-bottom: 43px;
 }
 #about_me .languages-skills .languages-key-skills .languages .items .item:not(:last-child) {
   margin-bottom: 16px;
@@ -618,9 +629,6 @@ main > section header.has-bg img {
 #about_me .languages-skills .languages-key-skills .languages .items .item .info .level {
   color: #B6B7BA;
 }
-#about_me .languages-skills .languages-key-skills .key-skills .items {
-  margin-top: 53px;
-}
 #about_me .languages-skills .languages-key-skills .key-skills .items .item {
   display: flex;
   align-items: center;
@@ -630,7 +638,6 @@ main > section header.has-bg img {
   margin-bottom: 32px;
 }
 #about_me .languages-skills .web-skills .items {
-  margin-top: 42px;
   margin-left: -20px;
   margin-right: -20px;
 }
@@ -687,10 +694,27 @@ main > section header.has-bg img {
 #about_me .languages-skills .web-skills .items .item .year {
   color: #FF9F76;
 }
+#about_me .certificates {
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+#about_me .certificates .items .item img {
+  width: 100%;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+#about_me .certificates .items .item img:hover {
+  transform: scale(1.1);
+}
 
 @media (min-width: 1400px) {
   .container {
     max-width: 1200px;
+  }
+}
+@media (max-width: 1199px) {
+  #about_me .languages-skills .languages-key-skills {
+    padding-right: 12px;
   }
 }
 @media (max-width: 991px) {
@@ -703,6 +727,9 @@ main > section header.has-bg img {
     height: unset;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  #about_me .key-skills {
+    margin-bottom: 43px;
   }
 }
 @media (max-width: 767px) {
@@ -770,5 +797,63 @@ main > section header.has-bg img {
   }
   #about_me .hero .info .buttons a:first-child {
     margin-bottom: 16px;
+  }
+}
+@media (max-width: 355px) {
+  #about_me .rate span {
+    position: relative;
+    display: flex;
+    width: 7px;
+    height: 7px;
+  }
+  #about_me .rate span:not(:last-child) {
+    margin-right: 10px;
+  }
+  #about_me .rate span:before {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 2px;
+    background: #658DF2;
+    transform: rotate(40deg);
+  }
+  #about_me .rate span:after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 2px;
+    background: #658DF2;
+    transform: rotate(50deg);
+  }
+}
+@media (max-width: 300px) {
+  #about_me .rate span {
+    position: relative;
+    display: flex;
+    width: 5px;
+    height: 5px;
+  }
+  #about_me .rate span:not(:last-child) {
+    margin-right: 7px;
+  }
+  #about_me .rate span:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 1px;
+    background: #658DF2;
+    transform: rotate(40deg);
+  }
+  #about_me .rate span:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 1px;
+    background: #658DF2;
+    transform: rotate(50deg);
   }
 }/*# sourceMappingURL=main.css.map */

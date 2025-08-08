@@ -61,29 +61,29 @@
 
     }
 
-    header.custom {
-        text-align: center;
-        position: relative;
-        margin-bottom: 42px;
+    // header.custom {
+    //     text-align: center;
+    //     position: relative;
+    //     margin-bottom: 42px;
 
-        &:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background: $secondary;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: -1;
-        }
+    //     &:before {
+    //         content: "";
+    //         position: absolute;
+    //         width: 100%;
+    //         height: 2px;
+    //         background: $secondary;
+    //         left: 0;
+    //         top: 50%;
+    //         transform: translateY(-50%);
+    //         z-index: -1;
+    //     }
 
-        h2 {
-            background: $dark_bg;
-            display: inline-block;
-            padding: 0 24px;
-        }
-    }
+    //     h2 {
+    //         background: $dark_bg;
+    //         display: inline-block;
+    //         padding: 0 24px;
+    //     }
+    // }
 
     .rate {
             display: flex;

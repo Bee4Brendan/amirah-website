@@ -10,6 +10,12 @@
             padding-right: 12px;
         }
     }
+
+    #my_resume {
+        .experience {
+            margin-top: 100px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -60,7 +66,6 @@
                 display: flex;
                 align-items: center;
                 text-decoration: none;
-                
 
                 span {
                     display: block;
@@ -108,7 +113,6 @@
     }
 
     #about_me {
-
         h1 {
             margin-top: 30px;
         }
@@ -119,11 +123,43 @@
             a {
                 width: 100%;
                 text-align: center;
-                
+
                 &:first-child {
                     margin-bottom: 16px;
                 }
             }
+        }
+    }
+
+    #my_resume {
+        .items {
+            .item {
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -23px;
+                    z-index: 2;
+                    margin-top: 0;
+                    background: rgba($secondary, 0.75);;
+
+                    &:before {
+                        display: none;
+                    }
+                }
+
+                .box:before {
+                    display: none;
+                }
+            }
+        }
+
+        .education,
+        .experience {
+            padding-right: 12px;
+            padding-left: 12px;
         }
     }
 }

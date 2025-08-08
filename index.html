@@ -1,349 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <link
-      rel="stylesheet"
-      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body>
-    <div id="sidebar">
-        <div class="toggle-sidebar">
-            <i class="las la-bars"></i>
-        </div>
-        <div class="logo">
-            <img src="assets/images/Logo.png" alt="logo">
-        </div>
-      <nav>
-        <ul>
-            <li>
-                <a href="#home" class="inner-link">
-                    <i class="las la-home"></i>
-                    <span>Home</span>
-                </a>
-                <span>Home</span>
-            </li>
-            <li>
-                <a href="#about_me" class="active inner-link">
-                    <i class="las la-address-card"></i>
-                    <span>About Me</span>
-                </a>
-                <span>About Me</span>
-            </li>
-            <li>
-                <a href="#my_resume" class="inner-link">
-                    <i class="las la-file"></i>
-                    <span>My Resume</span>
-                </a>
-                <span>My Resume</span>
-            </li>
-            <li>
-                <a href="#my_work" class="inner-link">
-                    <i class="las la-briefcase"></i>
-                    <span>My Work</span>
-                </a>
-                <span>My Work</span>
-            </li>
-            <li>
-                <a href="#testimonial" class="inner-link">
-                    <i class="las la-comment"></i>
-                    <span>Testimonial</span>
-                </a>
-                <span>Testimonial</span>
-            </li>
-            <li>
-                <a href="#contact" class="inner-link">
-                    <i class="las la-phone"></i>
-                    <span>Contact</span>
-                </a>
-                <span>Contact</span>
-            </li>
-        </ul>
-      </nav>
-      <div class="toggle-mode">
-        <div class="outer">
-            <div class="inner"></div>
-        </div>
-      </div>
-    </div>
-    <main>
-      <section id="home">
-            <div class="meteor-shower"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 info">
-                      <img class="person-circle" src="assets/images/person-circle.png" alt="person circle">
-                      <h1><span>I'm</span> Mojtaba,</h1>
-                      <div class="field">
-                        <h2></h2>
-                      </div>
-                      <p>
-                          I design and develop services for customers of all sizes, 
-                          specializing in creating stylish, modern websites, 
-                          web services and online stores.
-                      </p>
-                      <a class="btn-custom-blue" href="assets/files/cv.pdf" download>Download CV</a>
-                      <div class="socials">
-                          <ul>
-                              <li>
-                                  <a href="#">
-                                      <i class="lab la-linkedin-in"></i>
-                                      <span>LinkedIn</span>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#">
-                                      <i class="lab la-facebook-f"></i>
-                                      <span>Facebook</span>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#">
-                                      <i class="lab la-github"></i>
-                                      <span>Github</span>
-                                  </a>
-                              </li>
-                              <li>
-                                  <a href="#">
-                                      <i class="lab la-stack-overflow"></i>
-                                      <span>Stack Overflow</span>
-                                  </a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-lg-6 image">
-                      <img src="assets/images/person-home.png" alt="person home">
-                  </div>
-              </div>
-          </div>
-      </section>
-      <section id="about_me" class="active">
-            <div class="container">
-                <div class="row hero">
-                    <div class="col-xxl-6 col-lg-4 image">
-                        <img src="/assets/images/person-about.png" alt="person about">
-                    </div>
-                    <div class="col-xxl-6 col-lg-8 info">
-                        <header class="has-bg">
-                            <img src="/assets/images/h1-bg.png" alt="">
-                            <h1>About Me</h1>
-                        </header>
-                        <h2>Front-End Web Developer</h2>
-                        <p>
-                            I'm a web developer with +5 years experience. I work on projects as a 
-                            Front-End and Back-End developer. as a Front-End developer, I'm Fluent in 
-                            HTML, CSS, Bootstrap, SCSS, Javascript, jQuery, Vue.js, and as a Back-End 
-                            developer, I'm fluent in PHP, WordPress, and Laravel. <br>
-                            This is my motto: "Everyone can start, but only a few can finish"
-                        </p>
-                        <div class="items">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 ps-0 ">
-                                        <div class="item">
-                                            <span class="title">Name:</span>
-                                            <span class="value">Mojtaba</span>
-                                        </div>
-                                        <div class="item">
-                                            <span class="title">Age:</span>
-                                            <span class="value">29</span>
-                                        </div>
-                                        <div class="item">
-                                            <span class="title">Location:</span>
-                                            <span class="value">Frankfurt</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 ps-0">
-                                        <div class="item">
-                                            <span class="title">Years of experience:</span>
-                                            <span class="value">+5 Years</span>
-                                        </div>
-                                        <div class="item">
-                                            <span class="title">Phone:</span>
-                                            <span class="value">+1 234 567 8901</span>
-                                        </div>
-                                        <div class="item">
-                                            <span class="title">E-mail:</span>
-                                            <span class="value">smo.hayati@gmail.com</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-                        <div class="buttons">
-                            <a class="btn-custom-blue" href="assets/files/cv.pdf" download>Download CV</a>
-                            <a class="btn-custom-dark inner-link" href="#contact">Message Me</a>
-                        </div> 
-                    </div>
-                </div>
-                <div class="row languages-skills">
-                    <div class="col-lg-6 languages-key-skills">
-                        <div class="languages">
-                            <header class="custom">
-                                <h2>Languages</h2>
-                            </header>
-                            <ul class="items">
-                                <li class="item mb-3">
-                                    <div class="info">
-                                        <h3>English</h3>
-                                        <span class="level">Native</span>
-                                    </div>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <div class="info">
-                                        <h3>Malay</h3>
-                                        <span class="level">Conversational</span>
-                                    </div>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="key-skills">
-                            <header class="custom">
-                                <h2>Key Skills</h2>
-                            </header>
-                            <ul class="items">
-                                <li class="item">
-                                    <h3>Problem Solving</h3>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <h3>Team Working</h3>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <h3>Communication</h3>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 web-skills">
-                        <div class="web-skills">
-                            <header class="custom">
-                                <h2>My Web Skills</h2>
-                            </header>
-                            <div class="container">
-                                <div class="items row">
-                                    <div class="col-xl-4 col-sm-6 px-2">
-                                        <div class="item">
-                                            <img src="assets/images/web skills/html5.png" alt="html5">
-                                            <h3>HTML 5</h3>
-                                            <span class="year">over 5 years</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-sm-6 px-2">
-                                        <div class="item">
-                                            <img src="assets/images/web skills/css3.png" alt="css3">
-                                            <h3>CSS 3</h3>
-                                            <span class="year">over 5 years</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-sm-6 px-2">
-                                        <div class="item">
-                                            <img src="assets/images/web skills/bootstrap.png" alt="bootstrap">
-                                            <h3>Bootstrap</h3>
-                                            <span class="year">4 years</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-sm-6 px-2">
-                                        <div class="item">
-                                            <img src="assets/images/web skills/vuejs.png" alt="vue">
-                                            <h3>Vue.js</h3>
-                                            <span class="year">about 3 years</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-sm-6 px-2">
-                                        <div class="item">
-                                            <img src="assets/images/web skills/js.png" alt="javascript">
-                                            <h3>JavaScript</h3>
-                                            <span class="year">3 years</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-sm-6 px-2">
-                                        <div class="item">
-                                            <img src="assets/images/web skills/jquery.png" alt="jquery">
-                                            <h3>jQuery</h3>
-                                            <span class="year">about 2 years</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="certificates">
-                    <header class="custom">
-                        <h2>My Certifications</h2>
-                    </header>
-                    <div class="items row justify-content-center">
-                        <div class="col-lg-4 col-md-6 mb-4 md-lg-0 item">
-                            <img src="/assets/images/certifications/1.png" alt="certifications1">
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4 md-lg-0 item">
-                            <img src="/assets/images/certifications/2.png" alt="certifications2">
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4 md-lg-0 item">
-                            <img src="/assets/images/certifications/3.png" alt="certifications3">
-                        </div>
-                    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Website</title>
+        <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+        <div id="sidebar">
+            <div class="toggle-sidebar">
+                <i class="las la-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="assets/images/Logo.png" alt="logo" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home" class="inner-link">
+                            <i class="las la-home"></i>
+                            <span>Home</span>
+                        </a>
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <a href="#about_me" class="inner-link">
+                            <i class="las la-address-card"></i>
+                            <span>About Me</span>
+                        </a>
+                        <span>About Me</span>
+                    </li>
+                    <li>
+                        <a href="#my_resume" class="active inner-link">
+                            <i class="las la-file"></i>
+                            <span>My Resume</span>
+                        </a>
+                        <span>My Resume</span>
+                    </li>
+                    <li>
+                        <a href="#my_work" class="inner-link">
+                            <i class="las la-briefcase"></i>
+                            <span>My Work</span>
+                        </a>
+                        <span>My Work</span>
+                    </li>
+                    <li>
+                        <a href="#testimonial" class="inner-link">
+                            <i class="las la-comment"></i>
+                            <span>Testimonial</span>
+                        </a>
+                        <span>Testimonial</span>
+                    </li>
+                    <li>
+                        <a href="#contact" class="inner-link">
+                            <i class="las la-phone"></i>
+                            <span>Contact</span>
+                        </a>
+                        <span>Contact</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="toggle-mode">
+                <div class="outer">
+                    <div class="inner"></div>
                 </div>
             </div>
-      </section>
-      <section id="my_resume">Resume</section>
-      <section id="my_work">Work</section>
-      <section id="testimonial">Testimonial</section>
-      <section id="contact">Contact</section>
-    </main>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
+        </div>
+        <main>
+            <section id="home">
+                <div class="meteor-shower"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 info">
+                            <img
+                                class="person-circle"
+                                src="assets/images/person-circle.png"
+                                alt="person circle"
+                            />
+                            <h1><span>I'm</span> Mojtaba,</h1>
+                            <div class="field">
+                                <h2></h2>
+                            </div>
+                            <p>
+                                I design and develop services for customers of
+                                all sizes, specializing in creating stylish,
+                                modern websites, web services and online stores.
+                            </p>
+                            <a
+                                class="btn-custom-blue"
+                                href="assets/files/cv.pdf"
+                                download
+                                >Download CV</a
+                            >
+                            <div class="socials">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="lab la-linkedin-in"></i>
+                                            <span>LinkedIn</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="lab la-facebook-f"></i>
+                                            <span>Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="lab la-github"></i>
+                                            <span>Github</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i
+                                                class="lab la-stack-overflow"
+                                            ></i>
+                                            <span>Stack Overflow</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 image">
+                            <img
+                                src="assets/images/person-home.png"
+                                alt="person home"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about_me">
+                <div class="container">
+                    <div class="row hero">
+                        <div class="col-xxl-6 col-lg-4 image">
+                            <img
+                                src="/assets/images/person-about.png"
+                                alt="person about"
+                            />
+                        </div>
+                        <div class="col-xxl-6 col-lg-8 info">
+                            <header class="has-bg">
+                                <img src="/assets/images/h1-bg.png" alt="" />
+                                <h1>About Me</h1>
+                            </header>
+                            <h2>Front-End Web Developer</h2>
+                            <p>
+                                I'm a web developer with +5 years experience. I
+                                work on projects as a Front-End and Back-End
+                                developer. as a Front-End developer, I'm Fluent
+                                in HTML, CSS, Bootstrap, SCSS, Javascript,
+                                jQuery, Vue.js, and as a Back-End developer, I'm
+                                fluent in PHP, WordPress, and Laravel. <br />
+                                This is my motto: "Everyone can start, but only
+                                a few can finish"
+                            </p>
+                            <div class="items">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6 ps-0">
+                                            <div class="item">
+                                                <span class="title">Name:</span>
+                                                <span class="value"
+                                                    >Mojtaba</span
+                                                >
+                                            </div>
+                                            <div class="item">
+                                                <span class="title">Age:</span>
+                                                <span class="value">29</span>
+                                            </div>
+                                            <div class="item">
+                                                <span class="title"
+                                                    >Location:</span
+                                                >
+                                                <span class="value"
+                                                    >Frankfurt</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 ps-0">
+                                            <div class="item">
+                                                <span class="title"
+                                                    >Years of experience:</span
+                                                >
+                                                <span class="value"
+                                                    >+5 Years</span
+                                                >
+                                            </div>
+                                            <div class="item">
+                                                <span class="title"
+                                                    >Phone:</span
+                                                >
+                                                <span class="value"
+                                                    >+1 234 567 8901</span
+                                                >
+                                            </div>
+                                            <div class="item">
+                                                <span class="title"
+                                                    >E-mail:</span
+                                                >
+                                                <span class="value"
+                                                    >smo.hayati@gmail.com</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a
+                                    class="btn-custom-blue"
+                                    href="assets/files/cv.pdf"
+                                    download
+                                    >Download CV</a
+                                >
+                                <a
+                                    class="btn-custom-dark inner-link"
+                                    href="#contact"
+                                    >Message Me</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row languages-skills">
+                        <div class="col-lg-6 languages-key-skills">
+                            <div class="languages">
+                                <header class="custom">
+                                    <h2>Languages</h2>
+                                </header>
+                                <ul class="items">
+                                    <li class="item mb-3">
+                                        <div class="info">
+                                            <h3>English</h3>
+                                            <span class="level">Native</span>
+                                        </div>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="info">
+                                            <h3>Malay</h3>
+                                            <span class="level"
+                                                >Conversational</span
+                                            >
+                                        </div>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="key-skills">
+                                <header class="custom">
+                                    <h2>Key Skills</h2>
+                                </header>
+                                <ul class="items">
+                                    <li class="item">
+                                        <h3>Problem Solving</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <h3>Team Working</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <h3>Communication</h3>
+                                        <div class="rate">
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span class="fill"></span>
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 web-skills">
+                            <div class="web-skills">
+                                <header class="custom">
+                                    <h2>My Web Skills</h2>
+                                </header>
+                                <div class="container">
+                                    <div class="items row">
+                                        <div class="col-xl-4 col-sm-6 px-2">
+                                            <div class="item">
+                                                <img
+                                                    src="assets/images/web skills/html5.png"
+                                                    alt="html5"
+                                                />
+                                                <h3>HTML 5</h3>
+                                                <span class="year"
+                                                    >over 5 years</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-sm-6 px-2">
+                                            <div class="item">
+                                                <img
+                                                    src="assets/images/web skills/css3.png"
+                                                    alt="css3"
+                                                />
+                                                <h3>CSS 3</h3>
+                                                <span class="year"
+                                                    >over 5 years</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-sm-6 px-2">
+                                            <div class="item">
+                                                <img
+                                                    src="assets/images/web skills/bootstrap.png"
+                                                    alt="bootstrap"
+                                                />
+                                                <h3>Bootstrap</h3>
+                                                <span class="year"
+                                                    >4 years</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-sm-6 px-2">
+                                            <div class="item">
+                                                <img
+                                                    src="assets/images/web skills/vuejs.png"
+                                                    alt="vue"
+                                                />
+                                                <h3>Vue.js</h3>
+                                                <span class="year"
+                                                    >about 3 years</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-sm-6 px-2">
+                                            <div class="item">
+                                                <img
+                                                    src="assets/images/web skills/js.png"
+                                                    alt="javascript"
+                                                />
+                                                <h3>JavaScript</h3>
+                                                <span class="year"
+                                                    >3 years</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-sm-6 px-2">
+                                            <div class="item">
+                                                <img
+                                                    src="assets/images/web skills/jquery.png"
+                                                    alt="jquery"
+                                                />
+                                                <h3>jQuery</h3>
+                                                <span class="year"
+                                                    >about 2 years</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificates">
+                        <header class="custom">
+                            <h2>My Certifications</h2>
+                        </header>
+                        <div class="items row justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4 md-lg-0 item">
+                                <img
+                                    src="/assets/images/certifications/1.png"
+                                    alt="certifications1"
+                                />
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4 md-lg-0 item">
+                                <img
+                                    src="/assets/images/certifications/2.png"
+                                    alt="certifications2"
+                                />
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4 md-lg-0 item">
+                                <img
+                                    src="/assets/images/certifications/3.png"
+                                    alt="certifications3"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="my_resume" class="active">
+                <div class="text-center">
+                    <header class="has-bg">
+                        <img src="/assets/images/h1-bg.png" alt="" />
+                        <h1>My Resume</h1>
+                    </header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 education">
+                                <header class="custom">
+                                    <h2>Education</h2>
+                                </header>
+                                <div class="items">
+                                    <div class="item last">
+                                        <div class="icon">
+                                            <i class="las la-university"></i>
+                                        </div>
+                                        <div class="box">
+                                            <span class="year">2014 - 2018</span>
+                                            <h2 class="title">Computer Science Degree</h2>
+                                            <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="las la-university"></i>
+                                        </div>
+                                        <div class="box">
+                                            <span class="year">2010 - 2014</span>
+                                            <h2 class="title">High School</h2>
+                                            <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="las la-university"></i>
+                                        </div>
+                                        <div class="box">
+                                            <span class="year">2001 - 2010</span>
+                                            <h2 class="title">Elementary School</h2>
+                                            <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 experience">
+                                <header class="custom">
+                                    <h2>Experience</h2>
+                                </header>
+                                <div class="items">
+                                    <div class="item last">
+                                        <div class="icon">
+                                            <i class="las la-briefcase"></i>
+                                        </div>
+                                        <div class="box">
+                                            <span class="year">2020 - present</span>
+                                            <h2 class="title">Senior Web Developer</h2>
+                                            <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="las la-briefcase"></i>
+                                        </div>
+                                        <div class="box">
+                                            <span class="year">2019 - 2020</span>
+                                            <h2 class="title">Mid-Level Web Developer</h2>
+                                            <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="las la-briefcase"></i>
+                                        </div>
+                                        <div class="box">
+                                            <span class="year">2017 - 2019</span>
+                                            <h2 class="title">Junior Web Developer</h2>
+                                            <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="my_work">Work</section>
+            <section id="testimonial">Testimonial</section>
+            <section id="contact">Contact</section>
+        </main>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>

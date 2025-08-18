@@ -86,3 +86,14 @@ workElements.forEach((item) => {
         workModal.show();
     })
 });
+
+var workModalElement = document.getElementById('workModal')
+workModalElement.addEventListener('show.bs.modal', function (event) {
+    document.getElementById('my_work').classList.add('blur');
+    document.getElementById("sidebar").classList.add("blur");
+})
+
+workModalElement.addEventListener("hide.bs.modal", function (event) {
+    document.getElementById("my_work").classList.remove("blur");
+    document.getElementById("sidebar").classList.remove("blur");
+});

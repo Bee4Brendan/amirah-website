@@ -50,7 +50,7 @@ for (let i = 1; i <= 15; i++) {
     document.querySelector("#home .meteor-shower").append(meteor);
 }
 
-// My_Work Shuffle ===============================================================================
+// My_Work Shuffle + Modal =======================================================================
 
 const shuffleInstance = new Shuffle(
     document.querySelector("#my_work .work-items"),
@@ -77,3 +77,12 @@ function workFilter() {
 
     shuffleInstance.filter(clickedButtonGroups);
 }
+
+var workModal = new bootstrap.Modal(document.getElementById('workModal'));
+const workElements = document.querySelectorAll("#my_work .work-items .wrap");
+workModal.show(); // TODO: Must be removed
+workElements.forEach((item) => {
+    item.addEventListener('click', function(){
+        workModal.show();
+    })
+});

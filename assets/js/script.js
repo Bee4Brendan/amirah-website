@@ -97,3 +97,18 @@ workModalElement.addEventListener("hide.bs.modal", function (event) {
     document.getElementById("sidebar").classList.remove("blur");
     document.activeElement.blur();
 });
+
+// Contact Me Form Labels =======================================================================
+
+const formLabels = document.querySelectorAll("#contact .form .form-item input, textarea");
+formLabels.forEach((item) => {
+    item.addEventListener("focus", function () {
+        item.parentElement.classList.add("focus");
+    })
+
+    item.addEventListener("blur", function () {
+        if (!item.value){
+            item.parentElement.classList.remove("focus");
+        }
+    });
+});

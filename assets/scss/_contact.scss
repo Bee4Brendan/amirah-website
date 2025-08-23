@@ -1,0 +1,115 @@
+#contact {
+    background-image: url("/assets/images/bg-shape.png");
+    background-repeat: no-repeat;
+    background-position: 54vw 574px;
+    min-height: 100vh;
+
+    .container {
+        margin-top: 123px;
+        display: flex;
+        justify-content: center;
+
+        // .form {
+        //     padding-right: 69px;
+
+        //     .form-item {
+        //         position: relative;
+        //         margin-bottom: 32px;
+
+        //         &.focus {
+        //             label {
+        //                 top: -3px;
+        //                 font-size: 12px;
+        //             }
+
+        //             &:after {
+        //                 width: 100%;
+        //             }
+        //         }
+
+        //         &:before {
+        //             content: "";
+        //             position: absolute;
+        //             height: 2px;
+        //             width: 100%;
+        //             background: $secondary_gray;
+        //             bottom: 0;
+        //             left: 0;
+        //         }
+
+        //         &:after {
+        //             content: "";
+        //             position: absolute;
+        //             height: 2px;
+        //             width: 0;
+        //             background: white;
+        //             bottom: 0;
+        //             left: 0;
+        //             transition: all 1s;
+        //         }
+
+        //         label {
+        //             top: 17px;
+        //             color: $secondary_gray;
+        //             position: absolute;
+        //             transition: all 0.3s;
+        //         }
+
+        //         input,
+        //         textarea {
+        //             width: 100%;
+        //             background: transparent;
+        //             outline: none;
+        //             border: none;
+        //             padding: 16px 0;
+        //         }
+
+        //         textarea {
+        //             resize: none;
+        //             min-height: 171px;
+        //         }
+        //     }
+        // }
+
+        .info {
+            .item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 32px;
+
+                &:hover {
+                    i {
+                        background: $primary;
+                    }
+                }
+
+                i {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    height: 46px;
+                    width: 46px;
+                    background: $secondary;
+                    border-radius: 50%;
+                    margin-right: 16px;
+                    font-size: 18px;
+                    transition: all 0.3s;
+                }
+
+                .text {
+
+                    span {
+                        color: $gray;
+                    }
+
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

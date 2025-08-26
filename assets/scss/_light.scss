@@ -1,0 +1,84 @@
+html[theme="light"] {
+    --bg-shape: url('../images/bg-shape-light.png');
+
+    body {
+        background: white;
+    }
+
+    * {
+        color: $paragraph_light;
+    }
+
+    #sidebar {
+        .logo img {
+            filter: invert(1);
+        }
+
+        nav ul li {
+            a {
+                &:hover i {
+                    color: $paragraph_light;
+                }
+
+                i {
+                    color: $gray_light;
+                }
+            }
+
+            > span {
+                background: $secondary_gray_light;
+            }
+        }
+
+        .toggle-mode .outer {
+            background: $gray;
+            transition: all 0.3s;
+
+            .inner {
+                margin-top: 5px;
+                transition: all 0.3s;
+                background: yellow;
+
+                &:before {
+                    opacity: 0;
+                    transition: all 0.3s;
+                }
+            }
+        }
+    }
+
+    #home {
+        background-image: var(--bg-shape-light);
+
+        .info {
+            h1 span {
+                color: $gray_light;
+            }
+
+            .field h2 {
+                color: $gray_light;
+            }
+        }
+
+        .btn-custom-blue {
+            color: $primary;
+            background: #e9efff;
+        }
+
+        .socials {
+            ul li a {
+                i, span {
+                    color: $gray_light;
+                }
+
+                &:hover {
+                    background: $secondary_gray_light;
+
+                    i, span {
+                        color: $paragraph_light;
+                    }
+                }
+            }
+        }
+    }
+}

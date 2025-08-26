@@ -34,8 +34,14 @@ p {
 body {
     background: $dark_bg;
     font-family: "Ubuntu", sans-serif;
+    transition: all .3s;
 }
 
 * {
     color: #fff;
+    transition: all .3s;
+}
+
+html {
+    --bg-shape: url('../images/bg-shape.png');
 }

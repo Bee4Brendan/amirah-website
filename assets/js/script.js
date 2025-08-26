@@ -100,15 +100,33 @@ workModalElement.addEventListener("hide.bs.modal", function (event) {
 
 // Contact Me Form Labels =======================================================================
 
-const formLabels = document.querySelectorAll("#contact .form .form-item input, textarea");
-formLabels.forEach((item) => {
-    item.addEventListener("focus", function () {
-        item.parentElement.classList.add("focus");
-    })
+// const formLabels = document.querySelectorAll("#contact .form .form-item input, textarea");
+// formLabels.forEach((item) => {
+//     item.addEventListener("focus", function () {
+//         item.parentElement.classList.add("focus");
+//     })
 
-    item.addEventListener("blur", function () {
-        if (!item.value){
-            item.parentElement.classList.remove("focus");
-        }
-    });
-});
+//     item.addEventListener("blur", function () {
+//         if (!item.value) {
+//             item.parentElement.classList.remove("focus");
+//         }
+//     });
+// });
+
+// Light / Dark Mode ============================================================================
+
+function toggleMode() {
+    let theme = document.querySelector('html').getAttribute('theme');
+
+    if (theme == "dark") {
+        theme = "light";
+        // new Audio('./assets/audio/light.wav').play();
+    }else {
+        theme = "dark";
+        // new Audio('./assets/audio/dark.wav').play();
+    }
+
+    document.querySelector("html").setAttribute("theme", theme);
+
+    console.log(theme);
+}

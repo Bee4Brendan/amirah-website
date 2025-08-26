@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" theme="light">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,7 +26,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#home" class="inner-link">
+                        <a href="#home" class="active inner-link">
                             <i class="las la-home"></i>
                             <span>Home</span>
                         </a>
@@ -61,7 +61,7 @@
                         <span>Testimonial</span>
                     </li> -->
                     <li>
-                        <a href="#contact" class="active inner-link">
+                        <a href="#contact" class="inner-link">
                             <i class="las la-phone"></i>
                             <span>Contact</span>
                         </a>
@@ -70,13 +70,13 @@
                 </ul>
             </nav>
             <div class="toggle-mode">
-                <div class="outer">
+                <div class="outer" onClick="toggleMode()">
                     <div class="inner"></div>
                 </div>
             </div>
         </div>
         <main>
-            <section id="home">
+            <section id="home" class="active">
                 <div class="meteor-shower"></div>
                 <div class="container">
                     <div class="row">
@@ -559,7 +559,7 @@
                 </div>
             </section>
             <!-- <section id="testimonial">Testimonial</section> -->
-            <section id="contact" class="active">
+            <section id="contact">
                 <div class="text-center">
                     <header class="has-bg">
                         <img src="/assets/images/h1-bg.png" alt="" />

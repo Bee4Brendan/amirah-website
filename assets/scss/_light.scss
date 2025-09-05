@@ -1,5 +1,5 @@
 html[theme="light"] {
-    --bg-shape: url('../images/bg-shape-light.png');
+    --bg-shape: url("../images/bg-shape-light.png");
 
     body {
         background: white;
@@ -7,6 +7,16 @@ html[theme="light"] {
 
     * {
         color: $paragraph_light;
+    }
+
+    .btn-custom-blue {
+        color: $primary;
+        background: #e9efff;
+    }
+
+    .btn-custom-dark {
+        color: $paragraph_light;
+        background: $secondary_gray_light;
     }
 
     #sidebar {
@@ -22,6 +32,16 @@ html[theme="light"] {
 
                 i {
                     color: $gray_light;
+                }
+
+                &.active {
+                    &:before {
+                        opacity: 0.3;
+                        transform: translate(-50%, -50%) scale(1);
+                    }
+                    i {
+                        color: $primary;
+                    }
                 }
             }
 
@@ -47,9 +67,37 @@ html[theme="light"] {
         }
     }
 
-    #home {
-        background-image: var(--bg-shape-light);
+    main > section {
+        header.has-bg {
+            img {
+                z-index: 0;
 
+                &[src="/assets/images/h1-bg-light.png"] {
+                    display: block;
+                }
+
+                &[src="/assets/images/h1-bg.png"] {
+                    display: none;
+                }
+            }
+
+            h1 {
+                z-index: 1;
+            }
+        }
+
+        header.custom {
+            &:before {
+                background: $secondary_gray_light;
+            }
+
+            h2 {
+                background: white;
+            }
+        }
+    }
+
+    #home {
         .info {
             h1 span {
                 color: $gray_light;
@@ -60,24 +108,221 @@ html[theme="light"] {
             }
         }
 
-        .btn-custom-blue {
-            color: $primary;
-            background: #e9efff;
-        }
-
         .socials {
             ul li a {
-                i, span {
+                i,
+                span {
                     color: $gray_light;
                 }
 
                 &:hover {
                     background: $secondary_gray_light;
 
-                    i, span {
+                    i,
+                    span {
                         color: $paragraph_light;
                     }
                 }
+            }
+        }
+    }
+
+    #about_me {
+        .hero {
+            .info {
+                h2 {
+                    color: $gray_light;
+                }
+
+                p {
+                    color: $paragraph_light;
+                }
+
+                .items {
+                    .item {
+                        .value {
+                            color: $gray_light;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rate {
+            span {
+                &:before,
+                &:after {
+                    background: $secondary_gray_light;
+                }
+
+                &.fill {
+                    &:before,
+                    &:after {
+                        background: $primary;
+                    }
+                }
+            }
+        }
+
+        .languages-skills {
+            .languages-key-skills .languages .items .item .info .level {
+                color: $gray_light;
+            }
+
+            .web-skills .items .item {
+                background: $secondary_gray_light;
+
+                &:before,
+                &:after {
+                    background: lighten($primary, 15%);
+                }
+
+                .year {
+                    color: $gray_light;
+                }
+            }
+        }
+    }
+
+    #my_resume {
+        .items .item {
+            &:hover {
+                .icon {
+                    background: lighten($primary, 22%);
+
+                    &:before {
+                        background: lighten($primary, 22%);
+                    }
+                }
+
+                .box {
+                    &:before {
+                        border-right-color: lighten($primary, 22%);
+                    }
+
+                    &:after {
+                        background: lighten($primary, 22%);
+                    }
+                }
+            }
+
+            .icon {
+                background: $secondary_gray_light;
+
+                &:before {
+                    background: $secondary_gray_light;
+                }
+            }
+
+            .box {
+                background: rgba($secondary_gray_light, 0.8);
+
+                p {
+                    color: $gray_light;
+                }
+
+                &:before {
+                    border-right-color: rgba($secondary_gray_light, 0.8);
+                }
+
+                .title {
+                    background: transparent;
+                }
+            }
+        }
+    }
+
+    #my_work {
+        .filters {
+            button {
+                &.active {
+                    background: lighten($secondary_gray_light, 1%);
+
+                    h4 {
+                        color: $paragraph_light;
+                    }
+                }
+
+                h4 {
+                    color: $gray_light;
+                }
+            }
+        }
+
+        .work-items .item .wrap:after {
+            background: rgba(#fff, 0.6);
+        }
+    }
+
+    .modal#workModal {
+        .modal-dialog {
+            .modal-content {
+                background: white;
+
+                .modal-body {
+                    p {
+                        color: $gray_light;
+                    }
+
+                    .right .value {
+                        color: $gray_light;
+                    }
+
+                    .modal-close-button {
+                        background: white;
+
+                        &:hover {
+                            background: $primary;
+
+                            i {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #contact {
+        .container {
+            .info {
+                .item {
+                    transition: all 0.3s;
+
+                    &:hover {
+                        i {
+                            color: white;
+                            background: $primary;
+                        }
+                    }
+
+                    i {
+                        background: $secondary_gray_light;
+                    }
+
+                    .text {
+                        a {
+                            color: $paragraph_light;
+                        }
+
+                        span {
+                            color: $gray_light;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    html[theme="light"] {
+        #sidebar {
+            background: lighten($primary, 22%);
+
+            .toggle-sidebar {
+                background: lighten($primary, 22%);;
             }
         }
     }

@@ -49,7 +49,7 @@
 
 @media (max-width: 767px) {
     #sidebar {
-        background: darken($secondary, 30%);
+        background: darken($primary, 58%);
         padding-right: 60px;
         transform: translateX(-100%);
         transition: all 0.5s;
@@ -75,6 +75,10 @@
                 span {
                     display: block;
                     padding-left: 8px;
+                }
+
+                &:before {
+                    background: transparent;
                 }
             }
 

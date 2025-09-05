@@ -9,6 +9,7 @@
                 border-radius: 10px;
                 max-width: 100%;
                 transition: all 0.3s;
+                z-index: -1;
 
                 &:hover {
                     filter: hue-rotate(180deg) grayscale(80%);
@@ -128,8 +129,6 @@
                     &:before,
                     &:after {
                         background: $primary;
-
-                        
                     }
                 }
             }

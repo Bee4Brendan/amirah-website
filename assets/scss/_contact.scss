@@ -9,6 +9,11 @@
         display: flex;
         justify-content: center;
 
+        .row{
+            width: 100%;
+            height: 500px;
+        }
+
         // .form {
         //     padding-right: 69px;
 
@@ -98,7 +103,6 @@
                 }
 
                 .text {
-
                     span {
                         color: $gray;
                     }

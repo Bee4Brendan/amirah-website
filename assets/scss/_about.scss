@@ -2,9 +2,7 @@
     padding-top: 64px;
 
     .hero {
-
         .image {
-
             img {
                 border-radius: 10px;
                 max-width: 100%;
@@ -14,12 +12,11 @@
                 &:hover {
                     filter: hue-rotate(180deg) grayscale(80%);
                     transform: translate(3px, -3px);
-            }
+                }
             }
         }
 
         .info {
-        
             header {
                 margin-bottom: 42px;
                 margin-top: 10px;
@@ -54,12 +51,11 @@
         .buttons {
             display: inline-flex;
             flex-wrap: wrap;
-            
+
             a:first-child {
                 margin-right: 24px;
             }
         }
-
     }
 
     // header.custom {
@@ -87,52 +83,52 @@
     // }
 
     .rate {
-            display: flex;
+        display: flex;
 
-            span {
-                position: relative;
-                display: flex;
+        span {
+            position: relative;
+            display: flex;
+            width: 15px;
+            height: 15px;
+
+            &:not(:last-child) {
+                margin-right: 12px;
+            }
+
+            &:before {
+                position: absolute;
+                content: "";
                 width: 15px;
                 height: 15px;
+                border-radius: 4px;
+                background: $secondary;
+                transform: rotate(40deg);
+            }
 
-                &:not(:last-child) {
-                    margin-right: 12px;
+            &:after {
+                position: absolute;
+                content: "";
+                width: 15px;
+                height: 15px;
+                border-radius: 4px;
+                background: $secondary;
+                transform: rotate(50deg);
+            }
+
+            &.fill {
+                transition: all 0.3s;
+
+                &:hover {
+                    transform: scale(1.5);
                 }
 
-                &:before {
-                    position: absolute;
-                    content: "";
-                    width: 15px;
-                    height: 15px;
-                    border-radius: 4px;
-                    background: $secondary;
-                    transform: rotate(40deg);
-                }
-
+                &:before,
                 &:after {
-                    position: absolute;
-                    content: "";
-                    width: 15px;
-                    height: 15px;
-                    border-radius: 4px;
-                    background: $secondary;
-                    transform: rotate(50deg);
-                }
-
-                &.fill {
-                    transition: all 0.3s;
-
-                    &:hover {
-                        transform: scale(1.5);
-                    }
-
-                    &:before,
-                    &:after {
-                        background: $primary;
-                    }
+                    background: $primary;
                 }
             }
         }
+    }
 
     .languages-skills {
         margin-top: 126px;
@@ -164,33 +160,32 @@
                     }
                 }
             }
+        }
 
-            .key-skills {
-                .items {
-                    .item {
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
+        .key-skills {
+            .items {
+                .item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
 
-                        &:not(:last-child) {
-                            margin-bottom: 32px;
-                        }
+                    &:not(:last-child) {
+                        margin-bottom: 32px;
                     }
                 }
             }
         }
 
         .web-skills {
-
             .items {
                 margin-left: -20px;
                 margin-right: -20px;
 
-                .item { 
+                .item {
                     position: relative;
                     text-align: center;
                     padding: 32px 8px;
-                    background: $secondary; 
+                    background: $secondary;
                     margin-bottom: 16px;
                     border-radius: 8px;
                     z-index: 1;
@@ -246,7 +241,7 @@
                     }
 
                     .year {
-                        color: #FF9F76;
+                        color: #ff9f76;
                     }
                 }
             }
@@ -263,8 +258,9 @@
                     width: 100%;
                     transition: all 0.3s;
                     border-radius: 10px;
+                    border: 1px solid $secondary_gray;
 
-                    &:hover{
+                    &:hover {
                         transform: scale(1.1);
                     }
                 }

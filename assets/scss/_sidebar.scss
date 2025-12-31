@@ -27,6 +27,11 @@
         height: 20%;
         padding-top: 62px;
         text-align: center;
+
+        &:hover {
+            // transform: translate(-2px, -2px);
+            transform: scale(2);
+        }
     }
 
     nav {

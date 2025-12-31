@@ -7,7 +7,14 @@
         padding-top: 281px;
 
         img.person-circle {
+            height: 45px;
+            width: 45px;
             margin-bottom: 24px;
+            border-radius: 50%;
+
+            &:hover{
+                transform: scale(2);
+            }
         }
 
         h1 {
@@ -40,7 +47,7 @@
         }
 
         .socials {
-            margin-top: 127px;
+            margin-top: 50px;
 
             ul {
                 display: flex;
@@ -57,6 +64,7 @@
                         align-items: center;
                         text-decoration: none;
                         padding: 9px 11px;
+                        margin-left: 25px;
                         transition: all 0.3s;
 
                         &:hover {

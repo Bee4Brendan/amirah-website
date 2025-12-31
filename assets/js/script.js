@@ -28,7 +28,7 @@ document.querySelector("#sidebar .toggle-sidebar").addEventListener("click", fun
 // Typed.js =====================================================================================
 
 var options = {
-    strings: ["Front-End Web Developer", "Web Designer", "Back-End Web Developer"],
+    strings: ["Lecturer", "Early Childhood Educator", "Child and Family Advocate"],
     loop: true,
     typeSpeed: 70,
     backSpeed: 30,

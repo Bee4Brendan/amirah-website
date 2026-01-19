@@ -1,3 +1,17 @@
+.overlay {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transition: opacity 5s linear;
+    z-index: 9999;
+}
+
+.overlay.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
 #home {
     background-image: var(--bg-shape);
     background-repeat: no-repeat;
@@ -12,7 +26,7 @@
             margin-bottom: 24px;
             border-radius: 50%;
 
-            &:hover{
+            &:hover {
                 transform: scale(2);
             }
         }
@@ -70,7 +84,7 @@
                         &:hover {
                             background: $secondary;
                             border-radius: 6px;
-                            
+
                             span,
                             i {
                                 color: #fff;
@@ -123,15 +137,15 @@
 
         @for $i from 1 through 15 {
             .meteor:nth-child(#{$i}) {
-                background-image: url('../images/meteor.png');
+                background-image: url("../images/meteor.png");
                 position: absolute;
                 height: 49px;
                 width: 60px;
                 opacity: 0;
-                top: #{random(80) + 'vh'};
-                left: #{random(80) + 'vw'};
-                animation: meteor #{random(5000) + 3000 + 'ms'} linear infinite;
-                animation-delay: #{random(5000) + 'ms'};
+                top: #{random(80) + "vh"};
+                left: #{random(80) + "vw"};
+                animation: meteor #{random(5000) + 3000 + "ms"} linear infinite;
+                animation-delay: #{random(5000) + "ms"};
             }
         }
     }

@@ -1,7 +1,7 @@
 .btn-custom-blue {
     display: inline-block;
     position: relative;
-    background: #0b9e8a;
+    background: #1e1e20;
     padding: 10px 52px;
     text-decoration: none;
     color: $primary;
@@ -29,13 +29,46 @@
     &:hover {
         color: #fff;
 
-        &:before{
+        &:before {
             transform: translate(-50%, -50%) scale(3);
         }
     }
 }
 
 .btn-custom-dark {
-    @extend .btn-custom-blue;
-    background: #1E1E20;
+    display: inline-block;
+    position: relative;
+    padding: 10px 52px;
+    text-decoration: none;
+    color: gray;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+    transition: all 0.3s;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: gray;
+        opacity: 0.3;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 0.3s;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #fff;
+        background: $secondary;
+        border-radius: 6px;
+
+        &:before {
+            transform: translate(-50%, -50%) scale(3);
+        }
+    }
 }

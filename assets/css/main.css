@@ -112,10 +112,10 @@ main > section header.custom h2 {
   padding: 0 24px;
 }
 
-.btn-custom-blue, .btn-custom-dark {
+.btn-custom-blue {
   display: inline-block;
   position: relative;
-  background: #0b9e8a;
+  background: #1e1e20;
   padding: 10px 52px;
   text-decoration: none;
   color: #c7f742;
@@ -125,7 +125,7 @@ main > section header.custom h2 {
   border: none;
   transition: all 0.3s;
 }
-.btn-custom-blue:before, .btn-custom-dark:before {
+.btn-custom-blue:before {
   content: "";
   position: absolute;
   width: 100px;
@@ -139,15 +139,46 @@ main > section header.custom h2 {
   transition: all 0.3s;
   z-index: -1;
 }
-.btn-custom-blue:hover, .btn-custom-dark:hover {
+.btn-custom-blue:hover {
   color: #fff;
 }
-.btn-custom-blue:hover:before, .btn-custom-dark:hover:before {
+.btn-custom-blue:hover:before {
   transform: translate(-50%, -50%) scale(3);
 }
 
 .btn-custom-dark {
-  background: #1E1E20;
+  display: inline-block;
+  position: relative;
+  padding: 10px 52px;
+  text-decoration: none;
+  color: gray;
+  border-radius: 8px;
+  z-index: 1;
+  overflow: hidden;
+  border: none;
+  transition: all 0.3s;
+}
+.btn-custom-dark:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: gray;
+  opacity: 0.3;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-custom-dark:hover {
+  color: #fff;
+  background: #201e20;
+  border-radius: 6px;
+}
+.btn-custom-dark:hover:before {
+  transform: translate(-50%, -50%) scale(3);
 }
 
 #sidebar {
@@ -282,6 +313,20 @@ main > section header.custom h2 {
   transition: all 0.3s;
 }
 
+.overlay {
+  background: black;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  transition: opacity 5s linear;
+  z-index: 9999;
+}
+
+.overlay.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
 #home {
   background-image: var(--bg-shape);
   background-repeat: no-repeat;
@@ -391,10 +436,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 30vh;
-  left: 57vw;
-  animation: meteor 7819ms linear infinite;
-  animation-delay: 67ms;
+  top: 57vh;
+  left: 61vw;
+  animation: meteor 3019ms linear infinite;
+  animation-delay: 2284ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   background-image: url("../images/meteor.png");
@@ -402,10 +447,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 2vh;
-  left: 13vw;
-  animation: meteor 7887ms linear infinite;
-  animation-delay: 730ms;
+  top: 31vh;
+  left: 61vw;
+  animation: meteor 4561ms linear infinite;
+  animation-delay: 3444ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   background-image: url("../images/meteor.png");
@@ -413,10 +458,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 69vh;
-  left: 50vw;
-  animation: meteor 5338ms linear infinite;
-  animation-delay: 2541ms;
+  top: 60vh;
+  left: 47vw;
+  animation: meteor 3896ms linear infinite;
+  animation-delay: 909ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   background-image: url("../images/meteor.png");
@@ -424,10 +469,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 44vh;
-  left: 26vw;
-  animation: meteor 6693ms linear infinite;
-  animation-delay: 4622ms;
+  top: 80vh;
+  left: 54vw;
+  animation: meteor 6315ms linear infinite;
+  animation-delay: 2442ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   background-image: url("../images/meteor.png");
@@ -435,10 +480,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 44vh;
-  left: 19vw;
-  animation: meteor 6262ms linear infinite;
-  animation-delay: 1870ms;
+  top: 27vh;
+  left: 73vw;
+  animation: meteor 4947ms linear infinite;
+  animation-delay: 3579ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   background-image: url("../images/meteor.png");
@@ -446,10 +491,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 24vh;
-  left: 55vw;
-  animation: meteor 5432ms linear infinite;
-  animation-delay: 271ms;
+  top: 49vh;
+  left: 23vw;
+  animation: meteor 4962ms linear infinite;
+  animation-delay: 1167ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   background-image: url("../images/meteor.png");
@@ -457,10 +502,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 52vh;
-  left: 74vw;
-  animation: meteor 3861ms linear infinite;
-  animation-delay: 1254ms;
+  top: 6vh;
+  left: 33vw;
+  animation: meteor 7883ms linear infinite;
+  animation-delay: 4466ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   background-image: url("../images/meteor.png");
@@ -468,10 +513,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 12vh;
-  left: 22vw;
-  animation: meteor 3387ms linear infinite;
-  animation-delay: 1173ms;
+  top: 4vh;
+  left: 45vw;
+  animation: meteor 5323ms linear infinite;
+  animation-delay: 1530ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   background-image: url("../images/meteor.png");
@@ -479,10 +524,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 60vh;
-  left: 72vw;
-  animation: meteor 5306ms linear infinite;
-  animation-delay: 413ms;
+  top: 50vh;
+  left: 31vw;
+  animation: meteor 6148ms linear infinite;
+  animation-delay: 4722ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   background-image: url("../images/meteor.png");
@@ -490,10 +535,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 59vh;
-  left: 42vw;
-  animation: meteor 3290ms linear infinite;
-  animation-delay: 2958ms;
+  top: 66vh;
+  left: 15vw;
+  animation: meteor 3225ms linear infinite;
+  animation-delay: 2033ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   background-image: url("../images/meteor.png");
@@ -501,10 +546,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 59vh;
-  left: 70vw;
-  animation: meteor 6293ms linear infinite;
-  animation-delay: 4898ms;
+  top: 9vh;
+  left: 46vw;
+  animation: meteor 3800ms linear infinite;
+  animation-delay: 3459ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   background-image: url("../images/meteor.png");
@@ -512,10 +557,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 4vh;
-  left: 11vw;
-  animation: meteor 3216ms linear infinite;
-  animation-delay: 971ms;
+  top: 77vh;
+  left: 34vw;
+  animation: meteor 4094ms linear infinite;
+  animation-delay: 1187ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   background-image: url("../images/meteor.png");
@@ -523,10 +568,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 77vh;
-  left: 11vw;
-  animation: meteor 4684ms linear infinite;
-  animation-delay: 2312ms;
+  top: 38vh;
+  left: 41vw;
+  animation: meteor 7048ms linear infinite;
+  animation-delay: 1579ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   background-image: url("../images/meteor.png");
@@ -534,10 +579,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 49vh;
-  left: 10vw;
-  animation: meteor 3173ms linear infinite;
-  animation-delay: 336ms;
+  top: 25vh;
+  left: 60vw;
+  animation: meteor 5075ms linear infinite;
+  animation-delay: 4076ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   background-image: url("../images/meteor.png");
@@ -545,10 +590,10 @@ main > section header.custom h2 {
   height: 49px;
   width: 60px;
   opacity: 0;
-  top: 50vh;
-  left: 63vw;
-  animation: meteor 4638ms linear infinite;
-  animation-delay: 4771ms;
+  top: 4vh;
+  left: 44vw;
+  animation: meteor 7679ms linear infinite;
+  animation-delay: 3021ms;
 }
 
 @keyframes meteor {
@@ -1250,9 +1295,9 @@ html[theme=light] body {
 html[theme=light] * {
   color: #0D0D0D;
 }
-html[theme=light] .btn-custom-blue, html[theme=light] .btn-custom-dark {
-  color: #c7f742;
-  background: #e9efff;
+html[theme=light] .btn-custom-blue {
+  color: #0D0D0D;
+  background: #d9d9da;
 }
 html[theme=light] .btn-custom-dark {
   color: #0D0D0D;

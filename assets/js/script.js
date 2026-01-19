@@ -1,3 +1,12 @@
+// Overlay Fade-Out
+const overlay = document.getElementById('overlay');
+
+overlay.classList.add('fade-out');
+
+setTimeout(() => {
+    overlay.remove();
+}, 20000);
+
 // Navlinks + Navigation ============================================================================
 
 let navLinks = document.querySelectorAll("a.inner-link");

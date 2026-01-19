@@ -10,9 +10,14 @@ html[theme="light"] {
     }
 
     .btn-custom-blue {
-        color: $primary;
-        background: #e9efff;
+        color: $paragraph_light;
+        background: $secondary_gray_light;
     }
+
+    // .btn-custom-blue {
+    //     color: $primary;
+    //     background: $secondary_gray_light;
+    // }
 
     .btn-custom-dark {
         color: $paragraph_light;
